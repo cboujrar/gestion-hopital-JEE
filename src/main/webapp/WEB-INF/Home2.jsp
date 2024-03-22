@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -115,12 +117,16 @@ footer .widget h5 {
 
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
           <ul class="nav navbar-nav">
-            <li class="active" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;"><a href="home.html" style="color: white">HOME</a></li>
-            <li class="active" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;"><a href="#" style="color: white">DOCTORS</a></li>
+            <li   class="active" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;"><a href="#" style="color: white">HOME</a></li>
+            <li   class="active" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;"><a href="#" style="color: white">DOCTORS</a></li>
             <li><a href="#" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: white">PATIENTS</a></li>
             <li class="#" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;"><a href="index.php" style="color: white">MEDCINE</a></li>
             <li class="#" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;"><a href="services.html" style="color: white">ABOUT US</a></li>
-            <li><a href="#" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: white">LOGIN</a></li>
+         <!--   <li><a href="Logine.jsp" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: white">align="center">welcom to <%=session.getAttribute("client") %></a></li> --> 
+            
+            
+            
+            
              <li><a href="contact.html" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: white">CONTACT US</a></li>
               </ul>
         </div>

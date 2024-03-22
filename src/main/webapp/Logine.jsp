@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -101,17 +103,18 @@
                 <i class="fa fa-hospital-o fa-3x" aria-hidden="true" style="color:#0062cc"></i>
                 <br>
               <h3 style="margin-top: 10%">Patient Login</h3><br>
-              <form class="form-group" method="POST" action="Login">
+              <form class="form-group" method="POST" action="logine">
                 <div class="row" style="margin-top: 10%">
                   <div class="col-md-4"><label>Email-ID: </label></div>
                   <div class="col-md-8"><input type="text" name="email" class="form-control" placeholder="enter email ID" required/></div><br><br>
                   <div class="col-md-4" style="margin-top: 8%"><label>Password: </label></div>
-                  <div class="col-md-8" style="margin-top: 8%"><input type="password" class="form-control" name="password2" placeholder="enter password" required/></div><br><br><br>
+                  <div class="col-md-8" style="margin-top: 8%"><input type="password" class="form-control" name="passs" placeholder="enter password" required/></div><br><br><br>
                 </div>
                 <div class="row">
                  <div class="col-md-4"  style="padding-left: 160px;margin-top: 10%">
-                    <center><input type="submit" id="inputbtn" name="patsub" value="Login" class="btn btn-primary"></center></div>           
+                    <center><input type="submit" id="inputbtn" name="patsub" value="Login" class="btn btn-primary"> </center></div>           
                 </div>
+                <a href="Signup.jsp" color="red">create a conte</a>
               </form>
             </center>
             </div>

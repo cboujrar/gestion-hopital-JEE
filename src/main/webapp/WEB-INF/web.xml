@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee"  id="WebApp_ID" version="6.0">
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee http://xmlns.jcp.org/xml/ns/javaee" id="WebApp_ID" version="6.0">
   <display-name>gestion_hopital</display-name>
   <welcome-file-list>
-    <welcome-file>index.html</welcome-file>
+    <welcome-file>Home.jsp</welcome-file>
     <welcome-file>index.jsp</welcome-file>
     <welcome-file>index.htm</welcome-file>
     <welcome-file>default.html</welcome-file>
@@ -18,5 +18,25 @@
   <servlet-mapping>
     <servlet-name>contact</servlet-name>
     <url-pattern>/contact</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Logine_Servlet</display-name>
+    <servlet-name>Logine_Servlet</servlet-name>
+    <servlet-class>Controllor.Logine_Servlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Logine_Servlet</servlet-name>
+    <url-pattern>/Logine_Servlet</url-pattern>
+  </servlet-mapping>
+  <servlet>
+    <description></description>
+    <display-name>Regester_logine</display-name>
+    <servlet-name>Regester_logine</servlet-name>
+    <servlet-class>Controllor.Regester_logine</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>Regester_logine</servlet-name>
+    <url-pattern>/Regester_logine</url-pattern>
   </servlet-mapping>
 </web-app>

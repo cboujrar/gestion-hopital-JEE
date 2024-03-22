@@ -1,3 +1,5 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -106,7 +108,7 @@
                         <i class="fa fa-hospital-o fa-3x" aria-hidden="true" style="color:#0062cc"></i>
                         <br>
                         <h3 style="margin-top: 10%">Sign Up</h3><br>
-                        <form class="form-group" method="POST" action="SignupServlet">
+                        <form class="form-group" method="POST" action="inscreption">
                             <div class="row" style="margin-top: 10%">
                                 <div class="col-md-4"><label>Nom: </label></div>
                                 <div class="col-md-8"><input type="text" name="nom" class="form-control" placeholder="Enter your name" required/></div><br><br>
@@ -115,13 +117,14 @@
                                 <div class="col-md-4"><label>Email: </label></div>
                                 <div class="col-md-8"><input type="email" name="email" class="form-control" placeholder="Enter your email" required/></div><br><br>
                                 <div class="col-md-4"><label>Password: </label></div>
-                                <div class="col-md-8"><input type="password" name="password" class="form-control" placeholder="Enter your password" required/></div><br><br><br>
+                                <div class="col-md-8"><input type="password" name="passs" class="form-control" placeholder="Enter your password" required/></div><br><br><br>
                             </div>
                             <div class="row">
                                 <div class="col-md-4"  style="padding-left: 160px;margin-top: 10%">
                                     <center><input type="submit" id="inputbtn" name="signup" value="Sign Up" class="btn btn-primary"></center>
                                 </div>
                             </div>
+                            <a href="Logine.jsp" color="red">SinUp</a>
                         </form>
                     </center>
                 </div>
@@ -138,6 +141,7 @@
 <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+
+
 </body>
 </html>
-
