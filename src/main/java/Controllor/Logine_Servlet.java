@@ -56,21 +56,26 @@ public class Logine_Servlet extends HttpServlet {
 				
 				String AZ = resultat.getString("email");
 				String AE = resultat.getString("pass");
-				String nom = resultat.getString("nom");
 				
+				//les sesion
+				String nom = resultat.getString("nom");
+				String prenom = resultat.getString("prenom");
 				
 				
 				if(AZ.equals(email)&& AE.equals(pass)) {
 					
 					
-			this.getServletContext().getRequestDispatcher("/contact.html").forward(request, response);
-				
+			this.getServletContext().getRequestDispatcher("/WEB-INF/Home2.jsp").forward(request, response);
+			
 				}
 				Personne persson = new Personne();
 				
 				persson.setNom(nom);
+				persson.setNom(prenom);
 		
 				session.setAttribute("client",nom);
+				session.setAttribute("clientt",prenom);
+				
 			}
 			
 			

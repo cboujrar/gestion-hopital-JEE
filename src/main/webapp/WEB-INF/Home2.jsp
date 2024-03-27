@@ -1,5 +1,9 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
     pageEncoding="UTF-8"%>
+    <%if (session.getAttribute("client")== null){
+    	response.sendRedirect("Logine.jsp");
+    } 
+    %>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -117,12 +121,13 @@ footer .widget h5 {
 
         <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
           <ul class="nav navbar-nav">
-            <li   class="active" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;"><a href="#" style="color: white">HOME</a></li>
-            <li   class="active" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;"><a href="#" style="color: white">DOCTORS</a></li>
+            <li class="active" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;"><a href="#" style="color: white">HOME</a></li>
+            <li class="active" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;"><a href="AddDoctor.jsp" style="color:white">DOCTORS</a></li>
             <li><a href="#" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: white">PATIENTS</a></li>
             <li class="#" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;"><a href="index.php" style="color: white">MEDCINE</a></li>
-            <li class="#" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;"><a href="services.html" style="color: white">ABOUT US</a></li>
-         <!--   <li><a href="Logine.jsp" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: white">align="center">welcom to <%=session.getAttribute("client") %></a></li> --> 
+            <li class="#" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;"><a href="services.html" style="color: white">ABOUT US</a></li> 
+            <li><a class="#" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: red"> <b> <%=session.getAttribute("client") %>
+                                                                                                             <%=session.getAttribute("clientt") %></b></a></li>  
             
             
             
