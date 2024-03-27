@@ -132,7 +132,7 @@ footer .widget h5 {
             
 <!-- Inside the navbar -->
   <li>
-    <a href="LogoutServlet" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: white">Logout</a>
+    <a href="Home.jsp" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: white">Logout</a>
     </li>
             
             

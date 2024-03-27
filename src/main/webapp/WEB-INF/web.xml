@@ -9,7 +9,7 @@
     <welcome-file>default.jsp</welcome-file>
     <welcome-file>default.htm</welcome-file>
   </welcome-file-list>
-  <servlet>
+ <!--  <servlet>
     <description></description>
     <display-name>contact</display-name>
     <servlet-name>contact</servlet-name>
@@ -108,5 +108,5 @@
     <servlet-name>contacte_Servlet</servlet-name>
     <url-pattern>/contacte</url-pattern>
   </servlet-mapping>
-
+ -->
 </web-app>
