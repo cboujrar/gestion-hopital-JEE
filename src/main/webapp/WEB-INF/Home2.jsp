@@ -130,9 +130,12 @@ footer .widget h5 {
                                                                                                              <%=session.getAttribute("clientt") %></b></a></li>  
             
             
+<!-- Inside the navbar -->
+  <li>
+    <a href="LogoutServlet" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: white">Logout</a>
+    </li>
             
             
-             <li><a href="contact.html" style="margin-right: 40px;font-family: 'IBM Plex Sans', sans-serif;color: white">CONTACT US</a></li>
               </ul>
         </div>
   

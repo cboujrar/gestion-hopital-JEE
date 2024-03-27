@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee" xsi:schemaLocation="https://jakarta.ee/xml/ns/jakartaee http://xmlns.jcp.org/xml/ns/javaee" id="WebApp_ID" version="6.0">
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="https://jakarta.ee/xml/ns/jakartaee"  id="WebApp_ID" version="6.0">
   <display-name>gestion_hopital</display-name>
   <welcome-file-list>
     <welcome-file>Home.jsp</welcome-file>
@@ -99,4 +99,14 @@
     <servlet-name>UpdetServlet</servlet-name>
     <url-pattern>/UpdetServlet</url-pattern>
   </servlet-mapping>
+  <servlet>
+    <display-name>contacte_Servlet</display-name>
+    <servlet-name>contacte_Servlet</servlet-name>
+    <servlet-class>Controllor.contacte</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>contacte_Servlet</servlet-name>
+    <url-pattern>/contacte</url-pattern>
+  </servlet-mapping>
+
 </web-app>
